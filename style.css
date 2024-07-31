@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
+.stats-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
+}
+
 body {
     font-family: 'Cabin';
     background-color: #758190;
@@ -72,4 +82,13 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header form {
+    display: flex;
 }
